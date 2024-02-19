@@ -6,6 +6,8 @@ type Menu = { id: MenuIds; title: string };
 
 // Додати тип Menu Selected
 
+type MenuSelected = {};
+
 const MenuSelectedContext = createContext<MenuSelected>({
   selectedMenu: {},
 });
